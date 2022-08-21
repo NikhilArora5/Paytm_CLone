@@ -51,17 +51,61 @@
           }
         }
       </script>
-    <title>Document</title>
+
+      
+    <title>Paytm Clone </title>
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/regular.min.css" integrity="sha512-EbT6icebNlvxlD4ECiLvPOVBD0uQdt4pHRg8Gpkfirdu9W8l2rtRZO8rThjqeIK08ubcFeiFKHbek7y+lEbWIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <link rel="stylesheet" href="index.css">
 </head>
 <body>
     
     <!-- nav section -->
-<section class="bg-white sticky top-0 z-10">
-    <img class="w-[30%] sm:w-[15%] ml-[40px]  lg:hidden" src="Assets/Paytm.com-images-9aa01b/paytm_logo.png" alt="">
+
+
+ <!-- cp-nav --> 
+ <div class="z-10  border-b-[2px] border mx-auto text-center   sticky top-0 py-3 bg-white lg:hidden">
+    <img class=" text-center mx-auto w-[40%] sm:w-[20%] lg:w-[15%]   " src="Assets/Paytm.com-images-9aa01b/paytm_logo.png" alt="">
+ </div>   
+    
+    <div id="navigation-cp">
+
+
+        <!-- navslider -->
+        <div onclick="onClickMenu()" id="cp-menu">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="m-cp-nav font-ShopifySans" id="nav-cp">
+            <div class="flex ml-[10px] space-x-1 flex-row justify-center items-center lg:hidden">
+                <img class="w-[150px]" src="/Assets/Paytm.com-images-9aa01b/paytm_logo.png" alt="">
+               
+                
+            </div>
+
+            <hr class="cp-line">
+            
+            <a href="#home-id">Company</a>
+            <a href="#about-id">Investors Relations</a>
+            <a href="#page-id">Career</a>
+           
+            
+        </ul>
+        
+    </div>
+
+
+    
+
+    
+<section class="bg-white  hidden lg:block sticky top-0 z-10  xs:p border-b-[2px]">
+    
+
+     
     <header class= " hidden  lg:block text-gray-600 body-font">
        
         <div class="container  mx-auto flex flex-wrap p-5 flex-col md:flex-row justify-around items-center">
@@ -131,7 +175,7 @@
 <section class="bg-lt_blue">
     <section class=" body-font">
         <div class="container px-5 py-24 mx-auto w-[95%] text-white ">
-            <h1 class=" mb-10 mx-auto  md:mx-0  text-4xl   text-center md:text-left font-bold ">Paytm Payment Instruments</h1>
+            <h1 class=" mb-10 mx-auto  md:mx-0  text-4xl   text-center md:text-left font-bold ">Recharge & Pay Bills on Paytm.</h1>
           <div class="grid grid-cols-1  xs:grid-cols-2  sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 place-items-center gap-x-1 gap-y-6 text-white">
 
            
@@ -153,8 +197,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Recharge and pay bills/1626251043534.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="   text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                  <h3 class="   text-[22px] xs:text-[17px] title-font font-medium mb-1">Pay</h3>
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Electricity <br> Bill <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -165,7 +209,7 @@
                 </a>
                 <div class="mt-4">
                   <h3 class="   text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">DTH <br> Connection<i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -175,8 +219,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Recharge and pay bills/1626251127863.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="   text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                  <h3 class="   text-[22px] xs:text-[17px] title-font font-medium mb-1">Book</h3>
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Gas<br> Cylinder <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -186,8 +230,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Recharge and pay bills/1626268580682.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="   text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                  <h3 class="   text-[22px] xs:text-[17px] title-font font-medium mb-1">All</h3>
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Payment <br> Services <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -197,8 +241,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Recharge and pay bills/1626778824903.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="  text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                  <h3 class="  text-[22px] xs:text-[17px] title-font font-medium mb-1">Pay</h3>
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Rent <br> Payment <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -208,17 +252,11 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Recharge and pay bills/1627454209116.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="    text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                  <h3 class="    text-[22px] xs:text-[17px] title-font font-medium mb-1">Pay</h3>
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Credit <br> Card Bill <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
-
-              
-
-              
-
-              
 
 
             
@@ -244,7 +282,7 @@
 <section class="bg-dk_blue">
     <section class=" body-font">
         <div class="container  text-white px-5 py-24  mx-auto w-[95%] ">
-            <h1 class=" mb-10 mx-auto  md:mx-0  text-4xl   text-center md:text-left font-bold ">Paytm Payment Instruments</h1>
+            <h1 class=" mb-10 mx-auto  md:mx-0  text-4xl   text-center md:text-left font-bold ">Book & Buy on Paytm.</h1>
           <div class="grid grid-cols-1  xs:grid-cols-2  sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 place-items-center gap-x-1 gap-y-6 text-white">
 
            
@@ -254,8 +292,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[50%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Book and buy/1626259710574.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="  tracking-widest  text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                 
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Movie <br> Tickets <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -267,8 +305,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Book and buy/1626259884425.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="  tracking-widest  text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                  
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Flight <br> Tickets <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -278,8 +316,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Book and buy/1626259953707.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="  tracking-widest  text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                 
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Car & <br> Bikes <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -290,8 +328,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Book and buy/1626259968563.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="  tracking-widest  text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                 
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">International <br>Flights<i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -301,8 +339,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Book and buy/1626260477699.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="  tracking-widest  text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Bus <br> Tickets <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -312,8 +350,8 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Book and buy/1626260495975.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="  tracking-widest  text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
-                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
+                 
+                  <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">Train <br> Tickets <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
               </div>
@@ -323,7 +361,7 @@
                   <img alt="ecommerce" class="object-cover object-center w-[70%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/Book and buy/1627552693557.png">
                 </a>
                 <div class="mt-4">
-                  <h3 class="  tracking-widest  text-[22px] xs:text-[17px] title-font font-medium mb-1">Recharge</h3>
+                 
                   <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2>
                   
                 </div>
@@ -356,12 +394,13 @@
 
 <!-- Section Paymt Paymen intruments -->
 
-<section class="bg-whitesmoke py-10">
+<section class="bg-whitesmoke py-20">
 
     <div class=" md:w-[90%] lg:w-[80%] mx-auto">
-        <h1 class="mx-auto  container md:mx-0  text-4xl   sm:text-5xl text-center md:text-left font-bold mb-6">Paytm Payment Instruments</h1>
-        <div class="container mx-auto   rounded-md flex   px-4 py-24 xs:px-20 md:flex-row flex-col items-center bg-white ">
-            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
+        <h1 class="mx-auto mb-4 container md:mx-0  text-4xl   sm:text-5xl text-center md:text-left font-bold ">Paytm Payment Instruments</h1>
+        <div class="container mx-auto   rounded-md flex  my-24 px-4 py-24 xs:px-20 md:flex-row flex-col-reverse md:gap-0 gap-y-[50px]  md:space-y-0 items-center bg-white ">
+            
+            <div class=" lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
               <img class="mb-8 w-[30%] sm:w-[20%] md:w-[15%]" src="Assets/Paytm.com-images-9aa01b/payt seupi.png" alt="">
               <h1 class="title-font sm:text-4xl text-black text-3xl mb-4 font-bold">The Fastest Way to Pay In-store & Online.</h1>
               <p class="mb-8   text-black text-lg">Load up your Paytm Wallet for free and make payments in a jiffy at over 21 million stores, websites and apps.</p>
@@ -375,14 +414,16 @@
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img class="object-cover object-center rounded" alt="hero" src="Assets/Paytm.com-images-9aa01b/1656568118664.png">
             </div>
-          </div>
+          
+        </div>
 
 
 
-          <div class="container mx-auto flex mt-10 rounded-md  px-2 py-24 xs:px-20 md:flex-row flex-col items-center bg-white ">
-            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
+
+          <div class=" my-20 container mx-auto flex mt-10 rounded-md  px-2 py-24 xs:px-20 md:flex-row flex-col-reverse md:gap-0 gap-y-[50px] items-center bg-white ">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-4  md:space-y-8">
                 <div class=" flex flex-row space-x-2 justify-center  md:justify-start">
-                    <img class=" mb-8 w-[35%]  md:w-[25%]" src="Assets/Paytm.com-images-9aa01b/1615957674521.png" alt="">
+                    <img class="  md:mb-8 w-[35%]  md:w-[25%]" src="Assets/Paytm.com-images-9aa01b/1615957674521.png" alt="">
                     <h1 class="text-lg font-bold">Paytm <br> Wallet</h1>
                     
                   </div>
@@ -395,7 +436,7 @@
               </div>
             </div>
     
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
               <img class="object-cover object-center rounded" alt="hero" src="Assets/Paytm.com-images-9aa01b/1656568118664.png">
             </div>
           </div>
@@ -404,7 +445,7 @@
 
 
 
-          <div class="container mx-auto flex mt-10 rounded-md  px-2 py-24 xs:px-20 md:flex-row flex-col items-center bg-white ">
+          <div class="my-20 container mx-auto flex mt-10 rounded-md  px-2 py-24 xs:px-20 md:flex-row flex-col-reverse md:gap-0 gap-y-[50px]  items-center bg-white ">
             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
               <div class=" flex flex-row space-x-2 justify-center    sm:justify-start">
                 <img class=" mb-8 w-[35%]  md:w-[25%]" src="Assets/Paytm.com-images-9aa01b/1615957674521.png" alt="">
@@ -429,7 +470,7 @@
 
 
 
-          <div class="container w-[100%] mx-auto flex mt-10 rounded-md px-2 py-24 xs:px-20 md:flex-row flex-col items-center bg-white ">
+          <div class="my-20 container w-[100%] mx-auto flex mt-10 rounded-md px-2 py-24 xs:px-20 md:flex-row flex-col-reverse md:gap-0 gap-y-[50px] items-center bg-white ">
             <div class=" lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
               <img class="mb-8 w-[45%] md:w-[45%]" src="Assets/Paytm.com-images-9aa01b/1613622537678.png" alt="">
               <h1 class="title-font sm:text-4xl text-black text-3xl mb-4 font-bold">Want it? <br>
@@ -457,7 +498,7 @@
 
                                 <!-- debit card section -->
 
-                                <div class="container w-[100%] mx-auto flex mt-10  space-x-6 md:flex-row flex-col items-center bg-whitesmoke ">
+                                <div class="my-20 container w-[100%] mx-auto flex   space-x-6 md:flex-row flex-col items-center bg-whitesmoke ">
 
 
                                     <div class="container  flex mt-10 rounded-md  pt-20 flex-col items-center bg-white ">
@@ -482,7 +523,7 @@
 
 
                                       
-                                    <div class="container  flex mt-10 rounded-md  pt-[135px] flex-col items-center bg-white ">
+                                    <div class="container  flex  rounded-md  pt-[135px] flex-col items-center bg-white ">
                                         <div class=" lg:flex-grow w-[80%] lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16  items-center text-center space-y-6">
                                           <img class=" w-[45%] md:w-[45%]" src="Assets/Paytm.com-images-9aa01b/1640242163727.png" alt="">
                                           <h1 class="title-font sm:text-[40px] text-black text-3xl mb-4 font-bold">Unlimited Cashback 
@@ -514,12 +555,12 @@
 <!-- SECTION _FINACNIAL SERVICES -->
 
 
-                <div class=" md:w-[90%] lg:w-[80%] mx-auto mb-8 mt-16">
+                <div class=" my-20 md:w-[90%] lg:w-[80%] mx-auto ">
                         
                     
                     
                         <h1 class="mx-auto  container md:mx-0  text-4xl   sm:text-5xl text-center md:text-left font-bold mb-6">Financial Services by Paytm</h1>
-                        <div class="container mx-auto   rounded-md flex    md:flex-row flex-col items-center bg-white ">
+                        <div class="container mx-auto   rounded-md flex    md:flex-row flex-col-reverse md:gap-0 gap-y-[50px]  items-center bg-white ">
                             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
                             <img class="mb-8 w-[40%] sm:w-[30%] md:w-[25%]" src="Assets/Paytm.com-images-9aa01b/1617696576778.png" alt="">
                             <h1 class="title-font sm:text-4xl text-black text-3xl mb-4 font-bold">India's most sincere bank.</h1>
@@ -554,7 +595,7 @@
 
 
 
-                <div class=" md:w-[90%] lg:w-[80%] mx-auto mb-8 mt-16" >
+                <div class=" md:w-[90%] lg:w-[80%] mx-auto my-20" >
 
 
                     <div class="container mx-auto   rounded-md flex  lg:space-x-6  justify-between md:flex-row flex-col items-center bg-white ">
@@ -587,12 +628,12 @@
 
 
  <!-- Insurance Made Easy -->
-            <div class=" md:w-[90%] lg:w-[80%] mx-auto mb-8 mt-10">
+            <div class="my-20  md:w-[90%] lg:w-[80%] mx-auto ">
                         
                     
                     
                
-                <div class="container mx-auto   rounded-md flex    md:flex-row flex-col items-center bg-white ">
+                <div class="container mx-auto   rounded-md flex    md:flex-row flex-col-reverse md:gap-0 gap-y-[50px]  items-center bg-white ">
                     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
                     <img class="mb-8 w-[40%] sm:w-[30%] md:w-[25%]" src="Assets/Paytm.com-images-9aa01b/1653901470333.jpeg" alt="">
                     <h1 class="title-font sm:text-4xl text-black text-3xl mb-4 font-bold">Insurance made easy.</h1>
@@ -616,12 +657,12 @@
 
 
 
-        <section>
+        <section class="my-20">
 
 
 
 
-            <div class=" md:w-[90%] lg:w-[80%] mx-auto mb-8" >
+            <div class=" md:w-[90%] lg:w-[80%] mx-auto " >
 
 
                 <div class="container mx-auto   rounded-md flex  lg:space-x-6  justify-between md:flex-row flex-col items-center bg-white ">
@@ -657,15 +698,15 @@
 
 
 
-        <!-- Buseiness Services -->
+        <!-- Business Services by Paytm -->
 
 
     
-    <section class=" md:w-[90%] lg:w-[80%] mx-auto mb-8">
+    <section class=" my-20 md:w-[90%] lg:w-[80%] mx-auto ">
 
 
-        <h1 class="mx-auto  container md:mx-0  text-4xl   sm:text-5xl text-center md:text-left font-bold mb-6">Paytm Payment Instruments</h1>
-        <div class="container mx-auto   rounded-md flex   px-4 py-24 xs:px-20 md:flex-row flex-col items-center bg-whitesmoke ">
+        <h1 class="mx-auto  mb-6  container md:mx-0  text-4xl   sm:text-5xl text-center md:text-left font-bold ">Business Services by Paytm</h1>
+        <div class="container mx-auto   my-20  rounded-md flex   px-4 py-24 xs:px-20 md:flex-row flex-col-reverse md:gap-0 gap-y-[50px]  items-center bg-whitesmoke ">
             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
               
               <h1 class="title-font sm:text-4xl text-black text-3xl mb-4 font-bold">Accept payments online with ease</h1>
@@ -673,9 +714,9 @@
                 gateway that powers India’s largest brands and even the Paytm App</p>
               
               
-                  <div class="flex lg:flex-row  text-lg  text-white bg-dk_blue  py-[10px] px-[30px] rounded-full hover:bg-lt_blue ">
-                      <a href="">Learn More</a>
-                  </div>
+                <div onmouseover="arrowfunc()" onmouseout="x()" class="flex lg:flex-row  items-center justify-center text-lg  text-white bg-dk_blue  py-[10px] px-[30px] rounded-full hover:bg-lt_blue ">
+                    <a  href="">Learn More </a><i id="arrow-1" class="ml-2 fa-solid fa-angle-right "></i> <i id="" class="ml-2 hidden  fa-solid fa-arrow-right"></i>
+                </div>
             </div>
     
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -685,7 +726,7 @@
 
 
 
-          <div class="container mx-auto flex mt-10 rounded-md  px-2 py-24 xs:px-20 md:flex-row flex-col items-center bg-whitesmoke ">
+          <div class="container my-20 mx-auto flex mt-10 rounded-md  px-2 py-24 xs:px-20 md:flex-row flex-col-reverse md:gap-0 gap-y-[50px]  items-center bg-whitesmoke ">
             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center space-y-8">
                 <div class=" flex flex-row space-x-2 justify-center  md:justify-start">
                    
@@ -697,8 +738,8 @@
                     payments anywhere any time with a wide range of solutions for all kind of merchants</p>
                   
                   
-                      <div class="flex lg:flex-row  text-lg  text-white bg-dk_blue  py-[10px] px-[30px] rounded-full hover:bg-lt_blue ">
-                          <a href="">Learn More</a>
+                      <div onmouseover="arrowfunc()" onmouseout="x()" class="flex lg:flex-row  items-center justify-center text-lg  text-white bg-dk_blue  py-[10px] px-[30px] rounded-full hover:bg-lt_blue ">
+                          <a  href="">Learn More </a><i id="arrow-1" class="ml-2 fa-solid fa-angle-right "></i> <i id="" class="ml-2 hidden  fa-solid fa-arrow-right"></i>
                       </div>
             </div>
     
@@ -713,11 +754,13 @@
 
 <!-- --------------------------------------------------------------- -->
             
-            <section class=" md:w-[90%] lg:w-[80%] mx-auto ">
+
+<!-- Business Tools to help your business grow -->
+            <section class=" my-20  md:w-[90%] lg:w-[80%] mx-auto ">
 
 
 
-                <h1 class="mx-auto  container md:mx-0  text-4xl   sm:text-5xl text-center md:text-left font-bold mb-6">Business Services by Paytm</h1>
+                <h1 class="mx-auto mb-4  container md:mx-0  text-4xl   sm:text-4xl md:w-[50%] text-center md:text-left font-bold ">Business Tools to help your business grow</h1>
            
                 <div class="  grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 mx-auto gap-x-4 ">
 
@@ -817,40 +860,6 @@
                    
 
 
-                    <!-- <div class="lg:flex-grow    flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <img class=" w-[100%] mb-10  text-center md:text-left" src="Assets/Paytm.com-images-9aa01b/Business tools/1626081071077.png" alt="">
-                        <h1 class="title-font text-black text-3xl mb-4 font-bold">POS Billing
-                            Software</h1>
-                        
-                        <p class="mb-2  text-black text-xl  ">Say Hello to Smart Retail Business Management.</p>
-                        <p class="text-gray-800 font-bold">Learn More</p>
-                        
-                            
-                    </div>
-
-
-                        <div class="lg:flex-grow    flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                            <img class=" w-[100%] mb-10  text-center md:text-left" src="Assets/Paytm.com-images-9aa01b/Business tools/1626081071077.png" alt="">
-                            <h1 class="title-font text-black text-3xl mb-4 font-bold">POS Billing
-                                Software</h1>
-                            
-                            <p class="mb-2  text-black text-xl  ">Say Hello to Smart Retail Business Management.</p>
-                            <p class="text-gray-800 font-bold">Learn More</p>
-                            
-                                
-                        </div>
-
-
-                        <div class="lg:flex-grow    flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                            <img class=" w-[100%] mb-10  text-center md:text-left" src="Assets/Paytm.com-images-9aa01b/Business tools/1626081071077.png" alt="">
-                            <h1 class="title-font text-black text-3xl mb-4 font-bold">POS Billing
-                                Software</h1>
-                            
-                            <p class="mb-2  text-black text-xl  ">Say Hello to Smart Retail Business Management.</p>
-                            <p class="text-gray-800 font-bold">Learn More</p>
-                            
-                                
-                        </div> -->
 
                    
                 </div>
@@ -871,7 +880,7 @@
             <!--  -->
 
 
-            <section class=" body-font bg-whitesmoke">
+            <section class="py-20 body-font bg-whitesmoke ">
                 <div class="container px-5 py-24 mx-auto w-[80%]   sm:flex-row text-white  ">
 
                     <div class="flex flex-col lg:flex-row bg-white py-12 px-8 rounded-md space-y-6 lg:space-y-0">
@@ -890,7 +899,7 @@
 
                             <div class="flex  flex-col xs:items-start lg:text-left mb-16 md:mb-0 items-center text-center">
                                 <!-- <img class=" w-[100%] mb-10  text-center md:text-left" src="Assets/Paytm.com-images-9aa01b/Business tools/1626081071077.png" alt=""> -->
-                                <p class="xs:mb-2 text-center lg:text-left mx-auto lg:mx-0  w-[80%] xs:w-[80%] text-black font-medium text-[15px]  ">Best travel solutions with quick ticket bookings, great offers and easy refunds</p>
+                                <p class="xs:mb-2 text-center lg:text-left mx-auto lg:mx-0  w-[80%] xs:w-[80%] text-black font-medium text-[17px]  ">Best travel solutions with quick ticket bookings, great offers and easy refunds</p>
                                 <p class=" text-center lg:text-left mx-auto lg:mx-0 text-lt_blue font-medium text-[17px]">Learn More</p>      
                             </div>
     
@@ -900,9 +909,9 @@
             
                        
             
-                            <div class=" w-[75%] text-center py-2 mx-auto xs:mx-0  xs:pt-2 xs:pb-6  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
+                            <div class="  w-[75%] md:w-[60%] lg:w-[75%] text-center py-2 mx-auto xs:mx-0  xs:pt-2 xs:pb-6  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
                                 <a class="block relative  rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover  mx-auto object-center w-[70%] xs:w-[90%] block" src="Assets/Paytm.com-images-9aa01b/1618576143299.png">
+                                <img alt="ecommerce" class="object-cover  mx-auto object-center w-[70%] xs:w-[85%] lg:w-[90%] block" src="Assets/Paytm.com-images-9aa01b/1618576143299.png">
                                 </a>
                                 <div class="mt-4 text-center">
                                 <h3 class="  text-[22px] xs:text-[17px] w-[80%] mx-auto text-center   font-bold mb-1">Invest in Stocks</h3>
@@ -911,9 +920,9 @@
                                 </div>
                             </div>
                 
-                            <div class=" w-[75%] text-center py-2 mx-auto xs:mx-0   xs:pt-2 xs:pb-6  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
+                            <div class="  w-[75%] md:w-[60%] lg:w-[75%] text-center py-2 mx-auto xs:mx-0  xs:pt-2 xs:pb-6  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
                                 <a class="block relative  rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover  mx-auto object-center w-[70%] xs:w-[90%] block" src="Assets/Paytm.com-images-9aa01b/1618831809222.png">
+                                <img alt="ecommerce" class="object-cover  mx-auto object-center w-[70%] xs:w-[85%] lg:w-[90%] block" src="Assets/Paytm.com-images-9aa01b/1618831809222.png">
                                 </a>
                                 <div class="mt-4 text-center">
                                 <h3 class="  text-[22px] xs:text-[17px] w-[80%] mx-auto text-center   font-bold mb-1">Invest in ETFs</h3>
@@ -923,9 +932,9 @@
                             </div>
 
 
-                            <div class=" w-[75%] text-center py-2  mx-auto xs:mx-0  xs:pt-2 xs:pb-6  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
+                            <div class="  w-[75%] md:w-[60%] lg:w-[75%] text-center py-2 mx-auto xs:mx-0  xs:pt-2 xs:pb-6  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
                                 <a class="block relative  rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover  mx-auto object-center w-[70%] xs:w-[90%] block" src="Assets/Paytm.com-images-9aa01b/1618575899205.png">
+                                <img alt="ecommerce" class="object-cover  mx-auto object-center w-[70%] xs:w-[85%] lg:w-[90%] block" src="Assets/Paytm.com-images-9aa01b/1618575899205.png">
                                 </a>
                                 <div class="mt-4 text-center">
                                 <h3 class="  text-[22px] xs:text-[17px] w-[80%] mx-auto text-center   font-bold mb-1">Apply for IPO</h3>
@@ -935,12 +944,12 @@
                             </div>
 
 
-                            <div class=" w-[75%] text-center py-2  mx-auto xs:mx-0  xs:pt-2 xs:pb-6  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
+                            <div class="  w-[75%] md:w-[60%] lg:w-[75%] text-center py-2 mx-auto xs:mx-0  xs:pt-2 xs:pb-6  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
                                 <a class="block relative  rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover  mx-auto object-center w-[70%] xs:w-[90%] block" src="Assets/Paytm.com-images-9aa01b/1618575990183.png">
+                                <img alt="ecommerce" class="object-cover  mx-auto object-center w-[70%] xs:w-[85%] lg:w-[90%] block" src="Assets/Paytm.com-images-9aa01b/1618575990183.png">
                                 </a>
                                 <div class="mt-4 text-center">
-                                <h3 class="  text-[22px] xs:text-[17px] w-[80%] mx-auto text-center   font-bold mb-1">Buy Gold</h3>
+                                <h3 class="  text-[22px] xs:text-[17px] w-[80%] mx-auto text-center  lg:w-[50%] font-bold mb-1">Buy  Gold</h3>
                                 <!-- <h2 class=" title-font  text-[18px] xs:text-[15px] font-bold">The Catal <br> Mobile <i class=" ml-1 text-base fa-solid fa-angle-right"></i></h2> -->
                                 
                                 </div>
@@ -972,7 +981,7 @@
 
                 <!-- sub section div2 -->
 
-                <div class="container px-5 py-24 mx-auto w-[80%]   sm:flex-row text-white  ">
+                <div class="container px-5  mx-auto w-[80%]   sm:flex-row text-white  ">
 
                     <div class="flex flex-col lg:flex-row bg-white py-12 px-8 rounded-md space-y-6 lg:space-y-0">
 
@@ -990,8 +999,8 @@
 
                             <div class="flex  flex-col xs:items-start lg:text-left mb-16 md:mb-0 items-center text-center">
                                 <!-- <img class=" w-[100%] mb-10  text-center md:text-left" src="Assets/Paytm.com-images-9aa01b/Business tools/1626081071077.png" alt=""> -->
-                                <p class="xs:mb-2 text-center lg:text-left mx-auto lg:mx-0  w-[80%] xs:w-[80%] text-black font-medium text-[15px]  ">Best travel solutions with quick ticket bookings, great offers and easy refunds</p>
-                                <p class=" text-center lg:text-left mx-auto lg:mx-0 text-lt_blue font-medium text-[17px]">Learn More</p>      
+                                <p class="xs:mb-2 text-center lg:text-left mx-auto lg:mx-0  w-[80%] xs:w-[80%] text-black font-medium text-[17px]  ">Best travel solutions with quick ticket bookings, great offers and easy refunds</p>
+                                <p class=" text-center lg:text-left mx-auto lg:mx-0 text-lt_blue font-medium text-[17px]">Learn More </p>      
                             </div>
     
                         </div>
@@ -1000,9 +1009,9 @@
             
                        
             
-                            <div class=" mx-auto xs:mx-0 w-[90%] sm:w-[75%] pl-4 py-2   xs:pt-2 xs:py-8  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
+                            <div class=" mx-auto xs:mx-0 w-[90%] sm:w-[65%] lg:w-[90%] pl-4 py-2   xs:pt-2 xs:py-8  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
                                 <a class="block relative  rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover  object-center w-[45%] xs:w-[60%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/1627552693557.png">
+                                <img alt="ecommerce" class="object-cover  object-center w-[45%]  md:w-[60%]  block" src="Assets/Paytm.com-images-9aa01b/1627552693557.png">
                                 </a>
                                 <div class="mt-4">
                                 <h3 class="  text-[20px] xs:text-[17px] w-[80%]    font-bold mb-1">Flat 14% Cashback</h3>
@@ -1014,9 +1023,9 @@
                             </div>
                 
                             
-                            <div class=" mx-auto xs:mx-0 w-[90%] sm:w-[75%] pl-4 py-2   xs:pt-2 xs:py-8  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
+                            <div class=" mx-auto xs:mx-0 w-[90%] sm:w-[65%] lg:w-[90%] pl-4 py-2   xs:pt-2 xs:py-8  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
                                 <a class="block relative  rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover  object-center w-[45%] xs:w-[60%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/1627552693557.png">
+                                <img alt="ecommerce" class="object-cover  object-center w-[45%]  md:w-[60%]  block" src="Assets/Paytm.com-images-9aa01b/1627552693557.png">
                                 </a>
                                 <div class="mt-4">
                                 <h3 class="  text-[20px] xs:text-[17px] w-[80%]    font-bold mb-1">Flat 14% Cashback</h3>
@@ -1027,9 +1036,9 @@
                                 </div>
                             </div>
 
-                            <div class=" mx-auto xs:mx-0 w-[90%] sm:w-[75%] pl-4 py-2   xs:pt-2 xs:py-8  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
+                            <div class=" mx-auto xs:mx-0 w-[90%] sm:w-[65%] lg:w-[90%] pl-4 py-2   xs:pt-2 xs:py-8  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
                                 <a class="block relative  rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover  object-center w-[45%] xs:w-[60%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/1627552693557.png">
+                                <img alt="ecommerce" class="object-cover  object-center w-[45%]  md:w-[60%]  block" src="Assets/Paytm.com-images-9aa01b/1627552693557.png">
                                 </a>
                                 <div class="mt-4">
                                 <h3 class="  text-[20px] xs:text-[17px] w-[80%]    font-bold mb-1">Flat 14% Cashback</h3>
@@ -1041,9 +1050,9 @@
                             </div>
 
 
-                            <div class=" mx-auto xs:mx-0 w-[90%] sm:w-[75%] pl-4 py-2   xs:pt-2 xs:py-8  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
+                            <div class=" mx-auto xs:mx-0 w-[90%] sm:w-[65%] lg:w-[90%] pl-4 py-2   xs:pt-2 xs:py-8  hover:cursor-pointer hover:bg-lt_blue_hover hover:rounded-xl bg-sk_blue  rounded-lg">
                                 <a class="block relative  rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover  object-center w-[45%] xs:w-[60%] xs:w-[50%] block" src="Assets/Paytm.com-images-9aa01b/1627552693557.png">
+                                <img alt="ecommerce" class="object-cover  object-center w-[45%]  md:w-[60%]  block" src="Assets/Paytm.com-images-9aa01b/1627552693557.png">
                                 </a>
                                 <div class="mt-4">
                                 <h3 class="  text-[20px] xs:text-[17px] w-[80%]    font-bold mb-1">Flat 14% Cashback</h3>
@@ -1119,9 +1128,11 @@
         </section>
 
 
-
-           
-
+       <!-- MY name -->
+    <div class="container mx-auto text-center bg-gray-300 py-2">
+       <a href="https://www.linkedin.com/in/nikhilarora6541b91a4/" class=" text-center font-medium relative mx-auto my-4">Code by Nikhil Arora</a>
+    </div>
+        <script src="script.js" ></script>
 
 
 </body>
