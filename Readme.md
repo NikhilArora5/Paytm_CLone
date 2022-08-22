@@ -33,4 +33,4 @@ Please check the Live Demo of the Designed Landing Page using the Below Link:-)
 [Live-Demo](https://paytm-clone5.netlify.app/)
 
 ## Code By Nikhil Arora 
-### Visit ![I-write-code](/Final%20Output/readmeprofile.jpg) [Nikhil's Portfolio](https://nikhilarora-protfolio.netlify.app/)
+### Visit ![I-write-code](/Final%20Output/codericon-removebg-preview%20(1).png) [Nikhil's Portfolio](https://nikhilarora-protfolio.netlify.app/)
