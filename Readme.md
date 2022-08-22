@@ -1,21 +1,28 @@
-# Dance Home Page
-A Dance Home Page designed using pure Html and Css.
+# Paytm clone by Nikhil Arora
+Paytm clone designed using  Html , Tailwind Css and js only for sliding navbar.
 
-## Concepts and Learnings
+## Concepts and Learnings.
 
-- Positioning in css
-    - Absolute
-    - Relative
-- Flexbox
-- Image size and Positioning
-- use of Pseudo selectors
+- Learned about Tailwind Fundamentals how to use its utility classes.
+- Making website responsive by using  custom breakpoints.
+- Tailwind's Mobile first approach.
+- Using flex classes in tailwind css.
+- Positioning using Tailwind
+- setting Custom values in tailwind css.
+- How to use custom backgorund image.
+- learned how to use common used classes related to 
+    - margin
+    - Padding
+    - border
+    - container
+    - background-color  and much more
+- Using own custom css with Tailwind.
 
-## Landing Page Snapshot
-![Snapshot](/Assets/Output/P-13.jpeg)
 
-## Time Taken
 
-It took me 4.5 Hours to design this  Dance Home Page using Html and Css.
+## Paytm clone Page Snapshot
+![Snapshot](/Final%20Output/Web%20capture_22-8-2022_132238_127.0.0.1.jpeg)
+
 
 ## Live
 
@@ -23,7 +30,7 @@ Please check the Live Demo of the Designed Landing Page using the Below Link:-)
 
 ![lIVE-dEMO](https://img.shields.io/badge/Live_Demo-<COLOR>)
 
-[Live-Demo](https://beautiful-clafoutis-4cfda5.netlify.app/)
+[Live-Demo](https://paytm-clone5.netlify.app/)
 
-## Designed By Nikhil Arora 
-### Visit ![I-write-code](/Assets/Output/codericon-removebg-preview%20(1).png) [Nikhil's Portfolio](https://nikhilarora-protfolio.netlify.app/)
+## Code By Nikhil Arora 
+### Visit ![I-write-code](/Final%20Output/readmeprofile.jpg) [Nikhil's Portfolio](https://nikhilarora-protfolio.netlify.app/)
