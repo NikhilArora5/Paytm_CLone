@@ -1,5 +1,5 @@
 # Paytm clone by Nikhil Arora
-Paytm clone designed using  Html , Tailwind Css and js only for sliding navbar.
+Fully Responsive Paytm clone designed using  Html , Tailwind Css and js only for sliding navbar.
 
 ## Concepts and Learnings.
 
