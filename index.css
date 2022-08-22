@@ -1,4 +1,8 @@
 
+body{
+    background-image: url();
+}
+
 
 .arrow-1-right{
     transition-property: all;
